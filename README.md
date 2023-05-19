@@ -51,10 +51,12 @@ Web
 - [Next.js 13](https://nextjs.org/) - React framework
 - [React](https://reactjs.org/) - JS library
 - [Tailwind](https://tailwindcss.com/) - CSS framework
+
 Mobile
 - [ReactNative](https://reactnative.dev/docs/environment-setup) - 
 - [Expo go](https://docs.expo.dev/) -  Open-source framework for apps that run natively on Android, iOS
 - [NativeWind](https://www.nativewind.dev/quick-starts/expo) - NativeWind uses Tailwind CSS as scripting language to create a universal styling system
+
 Server
 - [Fastify](https://www.fastify.io/) - web framework
 - [prisma](https://www.prisma.io/) - Node.js and TypeScript ORM
