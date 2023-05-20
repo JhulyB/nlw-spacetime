@@ -66,6 +66,11 @@ Server
 ### What I learned
 🚧  🚀 Em construção...  🚧
 
+- Authentication with OAuth - Expo auth session
+- Encrypt local data - Expo SecureStore
+- Nextjs Layouts - UI that is shared between multiple pages
+- API Routes - API endpoint to save token in cookies
+
 ### Continued development
 
 🚧  🚀 Em construção...  🚧
