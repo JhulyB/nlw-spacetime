@@ -1,9 +1,9 @@
 /* eslint-disable prettier/prettier */
 import { BaiJamjuree_700Bold } from '@expo-google-fonts/bai-jamjuree'
 import {
-    Roboto_400Regular,
-    Roboto_700Bold,
-    useFonts
+  Roboto_400Regular,
+  Roboto_700Bold,
+  useFonts
 } from '@expo-google-fonts/roboto'
 import { SplashScreen, Stack } from 'expo-router'
 import * as SecureStore from 'expo-secure-store'
@@ -44,13 +44,19 @@ export default function Layout() {
 
       <StatusBar style="light" translucent />
         
-        <Stack screenOptions={{ headerShown:false, contentStyle:{
-             backgroundColor: 'transparent' }}}>
-                 <Stack.Screen name="index" redirect={isAuthenticated} />
-                 <Stack.Screen name="new" />
-                 
-                 <Stack.Screen name="memories" />
-             </Stack>
+        <Stack 
+          screenOptions={{ 
+            headerShown:false, 
+            contentStyle: {
+              backgroundColor: 'transparent' 
+            },
+            animation: 'fade',
+          }}
+        >
+          <Stack.Screen name="index" redirect={isAuthenticated} />
+          <Stack.Screen name="memories" />
+          <Stack.Screen name="new" />       
+        </Stack>
     </ImageBackground>
   )
 }
